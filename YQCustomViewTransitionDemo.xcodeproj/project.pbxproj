@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A177A0CB1998B90700CF1A92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A177A0CA1998B90700CF1A92 /* Foundation.framework */; };
+		A177A0CD1998B90700CF1A92 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A177A0CC1998B90700CF1A92 /* CoreGraphics.framework */; };
+		A177A0CF1998B90700CF1A92 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A177A0CE1998B90700CF1A92 /* UIKit.framework */; };
+		A177A0D51998B90700CF1A92 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A177A0D31998B90700CF1A92 /* InfoPlist.strings */; };
+		A177A0D71998B90700CF1A92 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A177A0D61998B90700CF1A92 /* main.m */; };
+		A177A0DB1998B90700CF1A92 /* YQAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A177A0DA1998B90700CF1A92 /* YQAppDelegate.m */; };
+		A177A0DD1998B90700CF1A92 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A177A0DC1998B90700CF1A92 /* Images.xcassets */; };
+		A177A0E41998B90700CF1A92 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A177A0E31998B90700CF1A92 /* XCTest.framework */; };
+		A177A0E51998B90700CF1A92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A177A0CA1998B90700CF1A92 /* Foundation.framework */; };
+		A177A0E61998B90700CF1A92 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A177A0CE1998B90700CF1A92 /* UIKit.framework */; };
+		A177A0EE1998B90700CF1A92 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A177A0EC1998B90700CF1A92 /* InfoPlist.strings */; };
+		A177A0F01998B90700CF1A92 /* YQCustomViewTransitionDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A177A0EF1998B90700CF1A92 /* YQCustomViewTransitionDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A177A0E71998B90700CF1A92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A177A0BF1998B90700CF1A92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A177A0C61998B90700CF1A92;
+			remoteInfo = YQCustomViewTransitionDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A177A0C71998B90700CF1A92 /* YQCustomViewTransitionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YQCustomViewTransitionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A177A0CA1998B90700CF1A92 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A177A0CC1998B90700CF1A92 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A177A0CE1998B90700CF1A92 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A177A0D21998B90700CF1A92 /* YQCustomViewTransitionDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YQCustomViewTransitionDemo-Info.plist"; sourceTree = "<group>"; };
+		A177A0D41998B90700CF1A92 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A177A0D61998B90700CF1A92 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A177A0D81998B90700CF1A92 /* YQCustomViewTransitionDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YQCustomViewTransitionDemo-Prefix.pch"; sourceTree = "<group>"; };
+		A177A0D91998B90700CF1A92 /* YQAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQAppDelegate.h; sourceTree = "<group>"; };
+		A177A0DA1998B90700CF1A92 /* YQAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQAppDelegate.m; sourceTree = "<group>"; };
+		A177A0DC1998B90700CF1A92 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A177A0E21998B90700CF1A92 /* YQCustomViewTransitionDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YQCustomViewTransitionDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A177A0E31998B90700CF1A92 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A177A0EB1998B90700CF1A92 /* YQCustomViewTransitionDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YQCustomViewTransitionDemoTests-Info.plist"; sourceTree = "<group>"; };
+		A177A0ED1998B90700CF1A92 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A177A0EF1998B90700CF1A92 /* YQCustomViewTransitionDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQCustomViewTransitionDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A177A0C41998B90700CF1A92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A177A0CD1998B90700CF1A92 /* CoreGraphics.framework in Frameworks */,
+				A177A0CF1998B90700CF1A92 /* UIKit.framework in Frameworks */,
+				A177A0CB1998B90700CF1A92 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A177A0DF1998B90700CF1A92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A177A0E41998B90700CF1A92 /* XCTest.framework in Frameworks */,
+				A177A0E61998B90700CF1A92 /* UIKit.framework in Frameworks */,
+				A177A0E51998B90700CF1A92 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A177A0BE1998B90700CF1A92 = {
+			isa = PBXGroup;
+			children = (
+				A177A0D01998B90700CF1A92 /* YQCustomViewTransitionDemo */,
+				A177A0E91998B90700CF1A92 /* YQCustomViewTransitionDemoTests */,
+				A177A0C91998B90700CF1A92 /* Frameworks */,
+				A177A0C81998B90700CF1A92 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A177A0C81998B90700CF1A92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A177A0C71998B90700CF1A92 /* YQCustomViewTransitionDemo.app */,
+				A177A0E21998B90700CF1A92 /* YQCustomViewTransitionDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A177A0C91998B90700CF1A92 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A177A0CA1998B90700CF1A92 /* Foundation.framework */,
+				A177A0CC1998B90700CF1A92 /* CoreGraphics.framework */,
+				A177A0CE1998B90700CF1A92 /* UIKit.framework */,
+				A177A0E31998B90700CF1A92 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A177A0D01998B90700CF1A92 /* YQCustomViewTransitionDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A177A0D91998B90700CF1A92 /* YQAppDelegate.h */,
+				A177A0DA1998B90700CF1A92 /* YQAppDelegate.m */,
+				A177A0DC1998B90700CF1A92 /* Images.xcassets */,
+				A177A0D11998B90700CF1A92 /* Supporting Files */,
+			);
+			path = YQCustomViewTransitionDemo;
+			sourceTree = "<group>";
+		};
+		A177A0D11998B90700CF1A92 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A177A0D21998B90700CF1A92 /* YQCustomViewTransitionDemo-Info.plist */,
+				A177A0D31998B90700CF1A92 /* InfoPlist.strings */,
+				A177A0D61998B90700CF1A92 /* main.m */,
+				A177A0D81998B90700CF1A92 /* YQCustomViewTransitionDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A177A0E91998B90700CF1A92 /* YQCustomViewTransitionDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A177A0EF1998B90700CF1A92 /* YQCustomViewTransitionDemoTests.m */,
+				A177A0EA1998B90700CF1A92 /* Supporting Files */,
+			);
+			path = YQCustomViewTransitionDemoTests;
+			sourceTree = "<group>";
+		};
+		A177A0EA1998B90700CF1A92 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A177A0EB1998B90700CF1A92 /* YQCustomViewTransitionDemoTests-Info.plist */,
+				A177A0EC1998B90700CF1A92 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A177A0C61998B90700CF1A92 /* YQCustomViewTransitionDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A177A0F31998B90700CF1A92 /* Build configuration list for PBXNativeTarget "YQCustomViewTransitionDemo" */;
+			buildPhases = (
+				A177A0C31998B90700CF1A92 /* Sources */,
+				A177A0C41998B90700CF1A92 /* Frameworks */,
+				A177A0C51998B90700CF1A92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YQCustomViewTransitionDemo;
+			productName = YQCustomViewTransitionDemo;
+			productReference = A177A0C71998B90700CF1A92 /* YQCustomViewTransitionDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A177A0E11998B90700CF1A92 /* YQCustomViewTransitionDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A177A0F61998B90700CF1A92 /* Build configuration list for PBXNativeTarget "YQCustomViewTransitionDemoTests" */;
+			buildPhases = (
+				A177A0DE1998B90700CF1A92 /* Sources */,
+				A177A0DF1998B90700CF1A92 /* Frameworks */,
+				A177A0E01998B90700CF1A92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A177A0E81998B90700CF1A92 /* PBXTargetDependency */,
+			);
+			name = YQCustomViewTransitionDemoTests;
+			productName = YQCustomViewTransitionDemoTests;
+			productReference = A177A0E21998B90700CF1A92 /* YQCustomViewTransitionDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A177A0BF1998B90700CF1A92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YQ;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = andy;
+				TargetAttributes = {
+					A177A0E11998B90700CF1A92 = {
+						TestTargetID = A177A0C61998B90700CF1A92;
+					};
+				};
+			};
+			buildConfigurationList = A177A0C21998B90700CF1A92 /* Build configuration list for PBXProject "YQCustomViewTransitionDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A177A0BE1998B90700CF1A92;
+			productRefGroup = A177A0C81998B90700CF1A92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A177A0C61998B90700CF1A92 /* YQCustomViewTransitionDemo */,
+				A177A0E11998B90700CF1A92 /* YQCustomViewTransitionDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A177A0C51998B90700CF1A92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A177A0D51998B90700CF1A92 /* InfoPlist.strings in Resources */,
+				A177A0DD1998B90700CF1A92 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A177A0E01998B90700CF1A92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A177A0EE1998B90700CF1A92 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A177A0C31998B90700CF1A92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A177A0DB1998B90700CF1A92 /* YQAppDelegate.m in Sources */,
+				A177A0D71998B90700CF1A92 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A177A0DE1998B90700CF1A92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A177A0F01998B90700CF1A92 /* YQCustomViewTransitionDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A177A0E81998B90700CF1A92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A177A0C61998B90700CF1A92 /* YQCustomViewTransitionDemo */;
+			targetProxy = A177A0E71998B90700CF1A92 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A177A0D31998B90700CF1A92 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A177A0D41998B90700CF1A92 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A177A0EC1998B90700CF1A92 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A177A0ED1998B90700CF1A92 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A177A0F11998B90700CF1A92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A177A0F21998B90700CF1A92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A177A0F41998B90700CF1A92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YQCustomViewTransitionDemo/YQCustomViewTransitionDemo-Prefix.pch";
+				INFOPLIST_FILE = "YQCustomViewTransitionDemo/YQCustomViewTransitionDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A177A0F51998B90700CF1A92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YQCustomViewTransitionDemo/YQCustomViewTransitionDemo-Prefix.pch";
+				INFOPLIST_FILE = "YQCustomViewTransitionDemo/YQCustomViewTransitionDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A177A0F71998B90700CF1A92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YQCustomViewTransitionDemo.app/YQCustomViewTransitionDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YQCustomViewTransitionDemo/YQCustomViewTransitionDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "YQCustomViewTransitionDemoTests/YQCustomViewTransitionDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A177A0F81998B90700CF1A92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YQCustomViewTransitionDemo.app/YQCustomViewTransitionDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YQCustomViewTransitionDemo/YQCustomViewTransitionDemo-Prefix.pch";
+				INFOPLIST_FILE = "YQCustomViewTransitionDemoTests/YQCustomViewTransitionDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A177A0C21998B90700CF1A92 /* Build configuration list for PBXProject "YQCustomViewTransitionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A177A0F11998B90700CF1A92 /* Debug */,
+				A177A0F21998B90700CF1A92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A177A0F31998B90700CF1A92 /* Build configuration list for PBXNativeTarget "YQCustomViewTransitionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A177A0F41998B90700CF1A92 /* Debug */,
+				A177A0F51998B90700CF1A92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A177A0F61998B90700CF1A92 /* Build configuration list for PBXNativeTarget "YQCustomViewTransitionDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A177A0F71998B90700CF1A92 /* Debug */,
+				A177A0F81998B90700CF1A92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A177A0BF1998B90700CF1A92 /* Project object */;
+}
