@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface YQBaseViewController : UIViewController
+@interface YQBaseViewController : UIViewController<UIViewControllerTransitioningDelegate>
 
 @end

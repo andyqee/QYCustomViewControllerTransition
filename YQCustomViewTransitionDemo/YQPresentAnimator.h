@@ -8,6 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface YQAnimator : NSObject
+@interface YQPresentAnimator : NSObject<UIViewControllerAnimatedTransitioning, UIViewControllerInteractiveTransitioning>
 
 @end

@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "YQBaseViewController.h"
 
-@interface YQMainUIViewController : UIViewController
+@interface YQMainUIViewController : YQBaseViewController
 
 @end

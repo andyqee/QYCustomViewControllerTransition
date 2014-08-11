@@ -19,6 +19,12 @@
 		A177A0E61998B90700CF1A92 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A177A0CE1998B90700CF1A92 /* UIKit.framework */; };
 		A177A0EE1998B90700CF1A92 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A177A0EC1998B90700CF1A92 /* InfoPlist.strings */; };
 		A177A0F01998B90700CF1A92 /* YQCustomViewTransitionDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A177A0EF1998B90700CF1A92 /* YQCustomViewTransitionDemoTests.m */; };
+		A177A0FE1998BA8000CF1A92 /* YQPresentAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = A177A0FD1998BA8000CF1A92 /* YQPresentAnimator.m */; };
+		A177A1061998CE9200CF1A92 /* YQBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A177A1051998CE9200CF1A92 /* YQBaseViewController.m */; };
+		A177A1091998D04200CF1A92 /* YQDismissAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = A177A1081998D04200CF1A92 /* YQDismissAnimator.m */; };
+		A177A10C1998D2EB00CF1A92 /* YQMainUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A177A10B1998D2EB00CF1A92 /* YQMainUIViewController.m */; };
+		A177A10F1998F0DD00CF1A92 /* YQToViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A177A10E1998F0DD00CF1A92 /* YQToViewController.m */; };
+		E3C2C9E9C8134A1CB91D01DF /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 626073B8FDDB4EC99482DB63 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		626073B8FDDB4EC99482DB63 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A177A0C71998B90700CF1A92 /* YQCustomViewTransitionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YQCustomViewTransitionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A177A0CA1998B90700CF1A92 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A177A0CC1998B90700CF1A92 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +55,17 @@
 		A177A0EB1998B90700CF1A92 /* YQCustomViewTransitionDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YQCustomViewTransitionDemoTests-Info.plist"; sourceTree = "<group>"; };
 		A177A0ED1998B90700CF1A92 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A177A0EF1998B90700CF1A92 /* YQCustomViewTransitionDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQCustomViewTransitionDemoTests.m; sourceTree = "<group>"; };
+		A177A0FC1998BA8000CF1A92 /* YQPresentAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQPresentAnimator.h; sourceTree = "<group>"; };
+		A177A0FD1998BA8000CF1A92 /* YQPresentAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQPresentAnimator.m; sourceTree = "<group>"; };
+		A177A1041998CE9200CF1A92 /* YQBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQBaseViewController.h; sourceTree = "<group>"; };
+		A177A1051998CE9200CF1A92 /* YQBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQBaseViewController.m; sourceTree = "<group>"; };
+		A177A1071998D04200CF1A92 /* YQDismissAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQDismissAnimator.h; sourceTree = "<group>"; };
+		A177A1081998D04200CF1A92 /* YQDismissAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQDismissAnimator.m; sourceTree = "<group>"; };
+		A177A10A1998D2EB00CF1A92 /* YQMainUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQMainUIViewController.h; sourceTree = "<group>"; };
+		A177A10B1998D2EB00CF1A92 /* YQMainUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQMainUIViewController.m; sourceTree = "<group>"; };
+		A177A10D1998F0DD00CF1A92 /* YQToViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQToViewController.h; sourceTree = "<group>"; };
+		A177A10E1998F0DD00CF1A92 /* YQToViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQToViewController.m; sourceTree = "<group>"; };
+		E4FACC8ECBC2422285623DA3 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,7 @@
 				A177A0CD1998B90700CF1A92 /* CoreGraphics.framework in Frameworks */,
 				A177A0CF1998B90700CF1A92 /* UIKit.framework in Frameworks */,
 				A177A0CB1998B90700CF1A92 /* Foundation.framework in Frameworks */,
+				E3C2C9E9C8134A1CB91D01DF /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +100,7 @@
 				A177A0E91998B90700CF1A92 /* YQCustomViewTransitionDemoTests */,
 				A177A0C91998B90700CF1A92 /* Frameworks */,
 				A177A0C81998B90700CF1A92 /* Products */,
+				E4FACC8ECBC2422285623DA3 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +120,7 @@
 				A177A0CC1998B90700CF1A92 /* CoreGraphics.framework */,
 				A177A0CE1998B90700CF1A92 /* UIKit.framework */,
 				A177A0E31998B90700CF1A92 /* XCTest.framework */,
+				626073B8FDDB4EC99482DB63 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -109,6 +130,8 @@
 			children = (
 				A177A0D91998B90700CF1A92 /* YQAppDelegate.h */,
 				A177A0DA1998B90700CF1A92 /* YQAppDelegate.m */,
+				A177A1031998C80F00CF1A92 /* ViewController */,
+				A177A0FF1998BA8500CF1A92 /* animator */,
 				A177A0DC1998B90700CF1A92 /* Images.xcassets */,
 				A177A0D11998B90700CF1A92 /* Supporting Files */,
 			);
@@ -144,6 +167,30 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		A177A0FF1998BA8500CF1A92 /* animator */ = {
+			isa = PBXGroup;
+			children = (
+				A177A0FC1998BA8000CF1A92 /* YQPresentAnimator.h */,
+				A177A0FD1998BA8000CF1A92 /* YQPresentAnimator.m */,
+				A177A1071998D04200CF1A92 /* YQDismissAnimator.h */,
+				A177A1081998D04200CF1A92 /* YQDismissAnimator.m */,
+			);
+			name = animator;
+			sourceTree = "<group>";
+		};
+		A177A1031998C80F00CF1A92 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A177A10A1998D2EB00CF1A92 /* YQMainUIViewController.h */,
+				A177A10B1998D2EB00CF1A92 /* YQMainUIViewController.m */,
+				A177A1041998CE9200CF1A92 /* YQBaseViewController.h */,
+				A177A1051998CE9200CF1A92 /* YQBaseViewController.m */,
+				A177A10D1998F0DD00CF1A92 /* YQToViewController.h */,
+				A177A10E1998F0DD00CF1A92 /* YQToViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -151,9 +198,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A177A0F31998B90700CF1A92 /* Build configuration list for PBXNativeTarget "YQCustomViewTransitionDemo" */;
 			buildPhases = (
+				E4610308B7D74CE1904F694B /* Check Pods Manifest.lock */,
 				A177A0C31998B90700CF1A92 /* Sources */,
 				A177A0C41998B90700CF1A92 /* Frameworks */,
 				A177A0C51998B90700CF1A92 /* Resources */,
+				E4537BCF34D64BE6832F635C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,13 +284,51 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		E4537BCF34D64BE6832F635C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4610308B7D74CE1904F694B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A177A0C31998B90700CF1A92 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A177A0FE1998BA8000CF1A92 /* YQPresentAnimator.m in Sources */,
 				A177A0DB1998B90700CF1A92 /* YQAppDelegate.m in Sources */,
+				A177A1061998CE9200CF1A92 /* YQBaseViewController.m in Sources */,
 				A177A0D71998B90700CF1A92 /* main.m in Sources */,
+				A177A1091998D04200CF1A92 /* YQDismissAnimator.m in Sources */,
+				A177A10F1998F0DD00CF1A92 /* YQToViewController.m in Sources */,
+				A177A10C1998D2EB00CF1A92 /* YQMainUIViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,6 +442,7 @@
 		};
 		A177A0F41998B90700CF1A92 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4FACC8ECBC2422285623DA3 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -368,6 +456,7 @@
 		};
 		A177A0F51998B90700CF1A92 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4FACC8ECBC2422285623DA3 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -438,6 +527,7 @@
 				A177A0F51998B90700CF1A92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A177A0F61998B90700CF1A92 /* Build configuration list for PBXNativeTarget "YQCustomViewTransitionDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +536,7 @@
 				A177A0F81998B90700CF1A92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

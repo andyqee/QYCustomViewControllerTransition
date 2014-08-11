@@ -7,6 +7,7 @@
 //
 
 #import "YQMainUIViewController.h"
+#import "YQToViewController.h"
 
 @interface YQMainUIViewController ()
 @end
@@ -36,7 +37,10 @@
 
 - (void)show
 {
-
+    YQToViewController *toViewController = [[YQToViewController alloc] init];
+    toViewController.transitioningDelegate = self;
+    toViewController.modalPresentationStyle = UIModalPresentationCustom;
+    [self.navigationController presentViewController:toViewController animated:YES completion:NULL];
 }
 
 @end
