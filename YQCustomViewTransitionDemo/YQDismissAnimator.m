@@ -7,6 +7,7 @@
 //
 
 #import "YQDismissAnimator.h"
+#import <POP/POP.h>
 
 @implementation YQDismissAnimator
 
@@ -17,6 +18,12 @@
 
 - (void)animateTransition:(id <UIViewControllerContextTransitioning>)transitionContext
 {
+    UIViewController *toVC = [transitionContext viewControllerForKey:UITransitionContextToViewControllerKey];
+    toVC.view.userInteractionEnabled = YES;
+    
+    UIViewController *fromVC = [transitionContext viewControllerForKey:UITransitionContextFromViewControllerKey];
+
+  //  POPSpringAnimation *
     
 }
 
