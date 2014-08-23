@@ -28,6 +28,7 @@
 		A177A10F1998F0DD00CF1A92 /* YQToViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A177A10E1998F0DD00CF1A92 /* YQToViewController.m */; };
 		BAF9F71919A83554009DF662 /* MotionBlurFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF9F71619A83554009DF662 /* MotionBlurFilter.m */; };
 		BAF9F71A19A83554009DF662 /* UIView+MotionBlur.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF9F71819A83554009DF662 /* UIView+MotionBlur.m */; };
+		BAF9F71C19A88219009DF662 /* Topmenu.png in Resources */ = {isa = PBXBuildFile; fileRef = BAF9F71B19A88219009DF662 /* Topmenu.png */; };
 		E3C2C9E9C8134A1CB91D01DF /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 626073B8FDDB4EC99482DB63 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -77,6 +78,7 @@
 		BAF9F71619A83554009DF662 /* MotionBlurFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MotionBlurFilter.m; sourceTree = "<group>"; };
 		BAF9F71719A83554009DF662 /* UIView+MotionBlur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MotionBlur.h"; sourceTree = "<group>"; };
 		BAF9F71819A83554009DF662 /* UIView+MotionBlur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MotionBlur.m"; sourceTree = "<group>"; };
+		BAF9F71B19A88219009DF662 /* Topmenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Topmenu.png; path = ../YQCustomViewTransitionDemo/Topmenu.png; sourceTree = "<group>"; };
 		E4FACC8ECBC2422285623DA3 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -186,6 +188,7 @@
 		A177A0EA1998B90700CF1A92 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BAF9F71B19A88219009DF662 /* Topmenu.png */,
 				A177A0EB1998B90700CF1A92 /* YQCustomViewTransitionDemoTests-Info.plist */,
 				A177A0EC1998B90700CF1A92 /* InfoPlist.strings */,
 			);
@@ -307,6 +310,7 @@
 			files = (
 				A177A0D51998B90700CF1A92 /* InfoPlist.strings in Resources */,
 				A177A0DD1998B90700CF1A92 /* Images.xcassets in Resources */,
+				BAF9F71C19A88219009DF662 /* Topmenu.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
