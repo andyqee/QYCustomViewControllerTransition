@@ -29,6 +29,7 @@
     self.columnView.alwaysBounceHorizontal = YES;
     self.columnView.contentSize = CGSizeMake(2999, 39);
     [self.view addSubview:self.columnView];
+    [self.view addSubview:[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"TopMenu"]]];
 }
 
 - (void)didReceiveMemoryWarning

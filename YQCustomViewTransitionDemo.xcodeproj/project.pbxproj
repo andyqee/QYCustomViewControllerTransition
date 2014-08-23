@@ -26,6 +26,8 @@
 		A177A1091998D04200CF1A92 /* YQDismissAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = A177A1081998D04200CF1A92 /* YQDismissAnimator.m */; };
 		A177A10C1998D2EB00CF1A92 /* YQMainUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A177A10B1998D2EB00CF1A92 /* YQMainUIViewController.m */; };
 		A177A10F1998F0DD00CF1A92 /* YQToViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A177A10E1998F0DD00CF1A92 /* YQToViewController.m */; };
+		BAF9F71919A83554009DF662 /* MotionBlurFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF9F71619A83554009DF662 /* MotionBlurFilter.m */; };
+		BAF9F71A19A83554009DF662 /* UIView+MotionBlur.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF9F71819A83554009DF662 /* UIView+MotionBlur.m */; };
 		E3C2C9E9C8134A1CB91D01DF /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 626073B8FDDB4EC99482DB63 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -71,6 +73,10 @@
 		A177A10B1998D2EB00CF1A92 /* YQMainUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQMainUIViewController.m; sourceTree = "<group>"; };
 		A177A10D1998F0DD00CF1A92 /* YQToViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQToViewController.h; sourceTree = "<group>"; };
 		A177A10E1998F0DD00CF1A92 /* YQToViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQToViewController.m; sourceTree = "<group>"; };
+		BAF9F71519A83554009DF662 /* MotionBlurFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MotionBlurFilter.h; sourceTree = "<group>"; };
+		BAF9F71619A83554009DF662 /* MotionBlurFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MotionBlurFilter.m; sourceTree = "<group>"; };
+		BAF9F71719A83554009DF662 /* UIView+MotionBlur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MotionBlur.h"; sourceTree = "<group>"; };
+		BAF9F71819A83554009DF662 /* UIView+MotionBlur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MotionBlur.m"; sourceTree = "<group>"; };
 		E4FACC8ECBC2422285623DA3 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -148,7 +154,8 @@
 				A177A0D91998B90700CF1A92 /* YQAppDelegate.h */,
 				A177A0DA1998B90700CF1A92 /* YQAppDelegate.m */,
 				A177A1031998C80F00CF1A92 /* ViewController */,
-				A177A0FF1998BA8500CF1A92 /* animator */,
+				BAF9F71419A8352E009DF662 /* MotionBlur */,
+				A177A0FF1998BA8500CF1A92 /* Animator */,
 				A177A0DC1998B90700CF1A92 /* Images.xcassets */,
 				A177A0D11998B90700CF1A92 /* Supporting Files */,
 				A1595BF9199A5ED70014E029 /* view */,
@@ -185,7 +192,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		A177A0FF1998BA8500CF1A92 /* animator */ = {
+		A177A0FF1998BA8500CF1A92 /* Animator */ = {
 			isa = PBXGroup;
 			children = (
 				A177A0FC1998BA8000CF1A92 /* YQPresentAnimator.h */,
@@ -193,7 +200,7 @@
 				A177A1071998D04200CF1A92 /* YQDismissAnimator.h */,
 				A177A1081998D04200CF1A92 /* YQDismissAnimator.m */,
 			);
-			name = animator;
+			name = Animator;
 			sourceTree = "<group>";
 		};
 		A177A1031998C80F00CF1A92 /* ViewController */ = {
@@ -207,6 +214,17 @@
 				A177A10E1998F0DD00CF1A92 /* YQToViewController.m */,
 			);
 			name = ViewController;
+			sourceTree = "<group>";
+		};
+		BAF9F71419A8352E009DF662 /* MotionBlur */ = {
+			isa = PBXGroup;
+			children = (
+				BAF9F71519A83554009DF662 /* MotionBlurFilter.h */,
+				BAF9F71619A83554009DF662 /* MotionBlurFilter.m */,
+				BAF9F71719A83554009DF662 /* UIView+MotionBlur.h */,
+				BAF9F71819A83554009DF662 /* UIView+MotionBlur.m */,
+			);
+			name = MotionBlur;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -342,10 +360,12 @@
 			files = (
 				A177A0FE1998BA8000CF1A92 /* YQPresentAnimator.m in Sources */,
 				A177A0DB1998B90700CF1A92 /* YQAppDelegate.m in Sources */,
+				BAF9F71A19A83554009DF662 /* UIView+MotionBlur.m in Sources */,
 				A177A1061998CE9200CF1A92 /* YQBaseViewController.m in Sources */,
 				A177A0D71998B90700CF1A92 /* main.m in Sources */,
 				A177A1091998D04200CF1A92 /* YQDismissAnimator.m in Sources */,
 				A177A10F1998F0DD00CF1A92 /* YQToViewController.m in Sources */,
+				BAF9F71919A83554009DF662 /* MotionBlurFilter.m in Sources */,
 				A177A10C1998D2EB00CF1A92 /* YQMainUIViewController.m in Sources */,
 				A1595BF8199A5B150014E029 /* YQColumnView.m in Sources */,
 				A1595BFC199A5EFC0014E029 /* YQColumnCell.m in Sources */,
