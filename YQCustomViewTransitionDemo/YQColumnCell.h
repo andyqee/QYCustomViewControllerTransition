@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface YQColumnCell : UIView
-
+- (void)configCellWithImage:(UIImage *)image;
 @end

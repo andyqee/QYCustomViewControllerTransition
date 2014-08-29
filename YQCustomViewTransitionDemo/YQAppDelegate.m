@@ -17,7 +17,7 @@
     YQMainUIViewController *mainViewController = [[YQMainUIViewController alloc] init];
     self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:mainViewController];
     
-    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.backgroundColor = [UIColor clearColor];
     [self.window makeKeyAndVisible];
     
     [[UINavigationBar appearance] setTitleTextAttributes:@{ NSFontAttributeName: [UIFont fontWithName:@"Avenir" size:20],
