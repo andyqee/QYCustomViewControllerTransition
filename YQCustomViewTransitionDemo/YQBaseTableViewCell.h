@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface YQColumnCell : UIView
+@interface YQBaseTableViewCell : UITableViewCell
 - (void)configCellWithImage:(UIImage *)image;
 @end

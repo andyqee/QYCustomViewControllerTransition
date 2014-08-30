@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface YQColumnView : UIScrollView
+@interface YQBaseTableView : UITableView
 
 @end

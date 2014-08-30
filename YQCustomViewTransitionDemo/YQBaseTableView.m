@@ -6,10 +6,14 @@
 //  Copyright (c) 2014 andy. All rights reserved.
 //
 
-#import "YQColumnView.h"
-#import "YQColumnCell.h"
+#import "YQBaseTableView.h"
+#import "YQBaseTableViewCell.h"
 
-@implementation YQColumnView
+@interface YQBaseTableView()<UITableViewDataSource, UITableViewDelegate>
+
+@end
+
+@implementation YQBaseTableView
 
 - (id)initWithFrame:(CGRect)frame
 {
@@ -20,7 +24,7 @@
         int maxCount = floorf((width / height)) + 2;
         for (int i = 0; i <= maxCount; i++) {
             CGRect cellFrame = CGRectMake(0, 2, height, height);
-            YQColumnCell *cell = [[YQColumnCell alloc] initWithFrame:cellFrame];
+            YQBaseTableViewCell *cell = [[YQBaseTableViewCell alloc] initWithFrame:cellFrame];
             cell.layer.cornerRadius = height / 2;
             cell.center = CGPointMake((height+3) * i + 10 + 4, cell.center.y);
             cell.backgroundColor = [UIColor redColor];

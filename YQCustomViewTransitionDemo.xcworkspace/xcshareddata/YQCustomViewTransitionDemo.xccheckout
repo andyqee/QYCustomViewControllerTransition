@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>57FE164C-9EED-45A7-8FBB-D0EB36CE59FF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>YQCustomViewTransitionDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>24075A1F-027F-462A-9586-820F0F3D5212</key>
+		<string>https://github.com/andyqee/QYCustomViewControllerTransition.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>YQCustomViewTransitionDemo.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>24075A1F-027F-462A-9586-820F0F3D5212</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/andyqee/QYCustomViewControllerTransition.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>24075A1F-027F-462A-9586-820F0F3D5212</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>24075A1F-027F-462A-9586-820F0F3D5212</string>
+			<key>IDESourceControlWCCName</key>
+			<string>YQCustomViewTransitionDemo</string>
+		</dict>
+	</array>
+</dict>
+</plist>

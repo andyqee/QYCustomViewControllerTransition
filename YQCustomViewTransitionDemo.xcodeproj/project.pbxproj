@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A1595BF8199A5B150014E029 /* YQColumnView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1595BF7199A5B150014E029 /* YQColumnView.m */; };
-		A1595BFC199A5EFC0014E029 /* YQColumnCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A1595BFB199A5EFC0014E029 /* YQColumnCell.m */; };
+		A1595BF8199A5B150014E029 /* YQBaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1595BF7199A5B150014E029 /* YQBaseTableView.m */; };
+		A1595BFC199A5EFC0014E029 /* YQBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A1595BFB199A5EFC0014E029 /* YQBaseTableViewCell.m */; };
 		A177A0CB1998B90700CF1A92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A177A0CA1998B90700CF1A92 /* Foundation.framework */; };
 		A177A0CD1998B90700CF1A92 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A177A0CC1998B90700CF1A92 /* CoreGraphics.framework */; };
 		A177A0CF1998B90700CF1A92 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A177A0CE1998B90700CF1A92 /* UIKit.framework */; };
@@ -41,10 +41,10 @@
 
 /* Begin PBXFileReference section */
 		626073B8FDDB4EC99482DB63 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		A1595BF6199A5B150014E029 /* YQColumnView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQColumnView.h; sourceTree = "<group>"; };
-		A1595BF7199A5B150014E029 /* YQColumnView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQColumnView.m; sourceTree = "<group>"; };
-		A1595BFA199A5EFC0014E029 /* YQColumnCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQColumnCell.h; sourceTree = "<group>"; };
-		A1595BFB199A5EFC0014E029 /* YQColumnCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQColumnCell.m; sourceTree = "<group>"; };
+		A1595BF6199A5B150014E029 /* YQBaseTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQBaseTableView.h; sourceTree = "<group>"; };
+		A1595BF7199A5B150014E029 /* YQBaseTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQBaseTableView.m; sourceTree = "<group>"; };
+		A1595BFA199A5EFC0014E029 /* YQBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQBaseTableViewCell.h; sourceTree = "<group>"; };
+		A1595BFB199A5EFC0014E029 /* YQBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQBaseTableViewCell.m; sourceTree = "<group>"; };
 		A177A0C71998B90700CF1A92 /* YQCustomViewTransitionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YQCustomViewTransitionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A177A0CA1998B90700CF1A92 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A177A0CC1998B90700CF1A92 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -102,10 +102,10 @@
 		A1595BF9199A5ED70014E029 /* view */ = {
 			isa = PBXGroup;
 			children = (
-				A1595BF6199A5B150014E029 /* YQColumnView.h */,
-				A1595BF7199A5B150014E029 /* YQColumnView.m */,
-				A1595BFA199A5EFC0014E029 /* YQColumnCell.h */,
-				A1595BFB199A5EFC0014E029 /* YQColumnCell.m */,
+				A1595BF6199A5B150014E029 /* YQBaseTableView.h */,
+				A1595BF7199A5B150014E029 /* YQBaseTableView.m */,
+				A1595BFA199A5EFC0014E029 /* YQBaseTableViewCell.h */,
+				A1595BFB199A5EFC0014E029 /* YQBaseTableViewCell.m */,
 			);
 			name = view;
 			sourceTree = "<group>";
@@ -347,8 +347,8 @@
 				A177A1091998D04200CF1A92 /* YQDismissAnimator.m in Sources */,
 				A177A10F1998F0DD00CF1A92 /* YQToViewController.m in Sources */,
 				A177A10C1998D2EB00CF1A92 /* YQMainUIViewController.m in Sources */,
-				A1595BF8199A5B150014E029 /* YQColumnView.m in Sources */,
-				A1595BFC199A5EFC0014E029 /* YQColumnCell.m in Sources */,
+				A1595BF8199A5B150014E029 /* YQBaseTableView.m in Sources */,
+				A1595BFC199A5EFC0014E029 /* YQBaseTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

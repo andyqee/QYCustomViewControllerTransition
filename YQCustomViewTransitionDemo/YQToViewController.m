@@ -7,10 +7,10 @@
 //
 
 #import "YQToViewController.h"
-#import "YQColumnView.h"
+#import "YQBaseTableView.h"
 
 @interface YQToViewController ()<UIScrollViewDelegate>
-@property (nonatomic, strong) YQColumnView *columnView;
+@property (nonatomic, strong) YQBaseTableView *columnView;
 @end
 
 @implementation YQToViewController
@@ -23,7 +23,7 @@
     [self.view addGestureRecognizer:tapgesture];
     
     CGRect rect = CGRectMake(0, 60, CGRectGetWidth(self.view.frame), 80);
-    self.columnView = [[YQColumnView alloc] initWithFrame:rect];
+    self.columnView = [[YQBaseTableView alloc] initWithFrame:rect];
     self.columnView.backgroundColor = [UIColor blueColor];
     self.columnView.delegate = self;
     self.columnView.alwaysBounceHorizontal = YES;

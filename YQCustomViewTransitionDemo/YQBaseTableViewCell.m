@@ -6,12 +6,12 @@
 //  Copyright (c) 2014 andy. All rights reserved.
 //
 
-#import "YQColumnCell.h"
-@interface YQColumnCell()
+#import "YQBaseTableViewCell.h"
+@interface YQBaseTableViewCell()
 @property (nonatomic, strong) UIImageView *imgView;
 @end
 
-@implementation YQColumnCell
+@implementation YQBaseTableViewCell
 
 - (id)initWithFrame:(CGRect)frame
 {

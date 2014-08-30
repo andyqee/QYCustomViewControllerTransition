@@ -8,7 +8,7 @@
 
 #import "YQMainUIViewController.h"
 #import "YQToViewController.h"
-#import "YQColumnView.h"
+#import "YQBaseTableView.h"
 
 @interface YQMainUIViewController ()
 @end
@@ -29,7 +29,7 @@
     [self.view addSubview:showButton];
     self.title = @"custom transition";
     
-    YQColumnView *columnView = [YQColumnView new];
+    YQBaseTableView *columnView = [YQBaseTableView new];
     columnView.frame = CGRectMake(0, 400, CGRectGetWidth(self.view.frame),CGRectGetHeight(self.view.frame) - 400);
     [self.view addSubview:columnView];
 }
