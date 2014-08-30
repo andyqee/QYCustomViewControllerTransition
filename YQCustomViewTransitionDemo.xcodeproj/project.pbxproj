@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A1535CA719B20357006ADA36 /* YQYQHorizontalTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A1535CA619B20357006ADA36 /* YQYQHorizontalTableCell.m */; };
 		A1595BF8199A5B150014E029 /* YQBaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1595BF7199A5B150014E029 /* YQBaseTableView.m */; };
 		A1595BFC199A5EFC0014E029 /* YQBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A1595BFB199A5EFC0014E029 /* YQBaseTableViewCell.m */; };
 		A177A0CB1998B90700CF1A92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A177A0CA1998B90700CF1A92 /* Foundation.framework */; };
@@ -41,6 +42,8 @@
 
 /* Begin PBXFileReference section */
 		626073B8FDDB4EC99482DB63 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1535CA519B20357006ADA36 /* YQYQHorizontalTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQYQHorizontalTableCell.h; sourceTree = "<group>"; };
+		A1535CA619B20357006ADA36 /* YQYQHorizontalTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQYQHorizontalTableCell.m; sourceTree = "<group>"; };
 		A1595BF6199A5B150014E029 /* YQBaseTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQBaseTableView.h; sourceTree = "<group>"; };
 		A1595BF7199A5B150014E029 /* YQBaseTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQBaseTableView.m; sourceTree = "<group>"; };
 		A1595BFA199A5EFC0014E029 /* YQBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQBaseTableViewCell.h; sourceTree = "<group>"; };
@@ -106,6 +109,8 @@
 				A1595BF7199A5B150014E029 /* YQBaseTableView.m */,
 				A1595BFA199A5EFC0014E029 /* YQBaseTableViewCell.h */,
 				A1595BFB199A5EFC0014E029 /* YQBaseTableViewCell.m */,
+				A1535CA519B20357006ADA36 /* YQYQHorizontalTableCell.h */,
+				A1535CA619B20357006ADA36 /* YQYQHorizontalTableCell.m */,
 			);
 			name = view;
 			sourceTree = "<group>";
@@ -348,6 +353,7 @@
 				A177A10F1998F0DD00CF1A92 /* YQToViewController.m in Sources */,
 				A177A10C1998D2EB00CF1A92 /* YQMainUIViewController.m in Sources */,
 				A1595BF8199A5B150014E029 /* YQBaseTableView.m in Sources */,
+				A1535CA719B20357006ADA36 /* YQYQHorizontalTableCell.m in Sources */,
 				A1595BFC199A5EFC0014E029 /* YQBaseTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -18,7 +18,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
+    self.view.backgroundColor = [UIColor whiteColor];
+
     UIButton *showButton = [UIButton buttonWithType:UIButtonTypeCustom];
     showButton.frame = CGRectMake(60, 200, 200, 50);
     showButton.center = self.view.center;
@@ -28,10 +29,6 @@
     [showButton addTarget:self action:@selector(show) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:showButton];
     self.title = @"custom transition";
-    
-    YQBaseTableView *columnView = [YQBaseTableView new];
-    columnView.frame = CGRectMake(0, 400, CGRectGetWidth(self.view.frame),CGRectGetHeight(self.view.frame) - 400);
-    [self.view addSubview:columnView];
 }
 
 - (void)didReceiveMemoryWarning

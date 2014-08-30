@@ -24,10 +24,10 @@
     
     CGRect rect = CGRectMake(0, 60, CGRectGetWidth(self.view.frame), 80);
     self.columnView = [[YQBaseTableView alloc] initWithFrame:rect];
-    self.columnView.backgroundColor = [UIColor blueColor];
-    self.columnView.delegate = self;
-    self.columnView.alwaysBounceHorizontal = YES;
-    self.columnView.contentSize = CGSizeMake(2999, 39);
+//    self.columnView.backgroundColor = [UIColor blueColor];
+//    self.columnView.delegate = self;
+//    self.columnView.alwaysBounceHorizontal = YES;
+//    self.columnView.contentSize = CGSizeMake(2999, 39);
     [self.view addSubview:self.columnView];
 }
 
