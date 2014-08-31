@@ -1,5 +1,5 @@
 //
-//  YQYQHorizontalTableCell.h
+//  YQHorizontalTableCell.h
 //  YQCustomViewTransitionDemo
 //
 //  Created by andy on 30/8/14.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface YQYQHorizontalTableCell : UITableViewCell
+@interface YQHorizontalTableCell : UITableViewCell
 @property (nonatomic, strong) NSMutableArray *dataMArray;
 
 @end

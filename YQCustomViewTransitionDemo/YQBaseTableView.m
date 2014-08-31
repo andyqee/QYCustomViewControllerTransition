@@ -8,6 +8,7 @@
 
 #import "YQBaseTableView.h"
 #import "YQBaseTableViewCell.h"
+#import "YQHorizontalTableCell.h"
 
 @interface YQBaseTableView()<UITableViewDataSource, UITableViewDelegate>
 @property (nonatomic, strong) NSMutableArray *contents;
@@ -20,17 +21,6 @@
     self = [super initWithFrame:frame];
     if (self) {
         _contents = [NSMutableArray new];
-//        CGFloat height = CGRectGetHeight(frame) - 6.0;
-//        CGFloat width = CGRectGetWidth(frame);
-//        int maxCount = floorf((width / height)) + 2;
-//        for (int i = 0; i <= maxCount; i++) {
-//            CGRect cellFrame = CGRectMake(0, 2, height, height);
-//            YQBaseTableViewCell *cell = [[YQBaseTableViewCell alloc] initWithFrame:cellFrame];
-//            cell.layer.cornerRadius = height / 2;
-//            cell.center = CGPointMake((height+3) * i + 10 + 4, cell.center.y);
-//            cell.backgroundColor = [UIColor redColor];
-//            [self addSubview:cell];
-//        }
     }
     return self;
 }
@@ -43,13 +33,21 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    if (indexPath.row == 1) {
+        NSString *cellIdentify = [YQHorizontalTableCell description];
+        YQHorizontalTableCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentify];
+        if (cell == nil) {
+            cell = [[YQHorizontalTableCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentify];
+        }
+        return cell;
+    }
+    
     NSString *cellIdentify = [YQBaseTableViewCell description];
     YQBaseTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentify];
     if (cell == nil) {
         cell = [[YQBaseTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentify];
     }
     return cell;
-//    [cell configCellWithImage:<#(UIImage *)#>];
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
